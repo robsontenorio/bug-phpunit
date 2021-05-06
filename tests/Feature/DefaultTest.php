@@ -5,13 +5,9 @@ namespace Tests\Feature;
 use App\MyClass;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @runTestsInSeparateProcesses
- * @preserveGlobalState disabled
- */
-class IsolatedTest extends TestCase
+class DefaultTest extends TestCase
 {
-    public function test_isolated()
+    public function test_default()
     {
         $greet = (new MyClass('Mary'))->greet();
 
