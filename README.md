@@ -1,3 +1,6 @@
+# PHPUNIT ISSUE
+https://github.com/sebastianbergmann/phpunit/issues/4664
+
 # PCOV
 
 As adviced on PCOV docs the default is `pcov.enabled=0`.
