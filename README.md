@@ -1,4 +1,4 @@
-# PCOC
+# PCOV
 
 As adviced on PCOV docs the default is `pcov.enabled=0`.
 
