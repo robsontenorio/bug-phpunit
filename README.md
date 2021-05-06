@@ -13,5 +13,8 @@ docker run -v ${PWD}:/src -it bug-phpunit bash
 
 ```bash
 composer install
+
+# Enable pcov to get coverage
+# Coverage report is set on `phpunit.xml`
 php -d pcov.enabled=1 ./vendor/bin/phpunit
 ```
